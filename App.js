@@ -5,17 +5,11 @@ import { Card } from 'react-native-paper';
 
 // or any files within the Snack
 import AssetExample from './components/AssetExample';
+import Screen01 from './components/Screen01';
 
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
-      <Text style={styles.paragraph}>
-cc.
-      </Text>
-      <Card>
-        <AssetExample />
-      </Card>
-    </SafeAreaView>
+    <Screen01/>
   );
 }
 
@@ -27,7 +21,7 @@ const styles = StyleSheet.create({
     padding: 8,
   },
   paragraph: {
-    margin: 24,
+    margin: 20,
     fontSize: 18,
     fontWeight: 'bold',
     textAlign: 'center',
